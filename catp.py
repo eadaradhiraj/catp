@@ -79,7 +79,7 @@ if __name__ == '__main__':
     parser.add_argument("-n", "--number", action="store_true",
                         help="Add line numbers at the beginning of each line")
 
-    parser.add_argument("-v", "--show-ends", action="store_true",
+    parser.add_argument("-E", "--show-ends", action="store_true",
                         help="Add dollar sign at the end of each line")
 
     parser.add_argument('file', type=str, nargs="+",
