@@ -1,7 +1,7 @@
 from typing import Generator
 import keyboard
 import magic
-from zmq import has
+import argparse
 
 
 def keyboard_interrupt(func):
